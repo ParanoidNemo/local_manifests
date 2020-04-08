@@ -3,7 +3,7 @@
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
 <remote name="nemo-s" fetch="https://github.com/ParanoidNemo/" />
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="q-mr1-legacy" />
-<project path="device/sony/common" name="device-sony-common" groups="device" remote="nemo-s" revision="q-mr1-legacy" />
+<project path="device/sony/common" name="device-sony-common" groups="device" remote="nemo-s" revision="q-mr1-legacy-posp" />
 
 <!--msm8956-->
 <project path="device/sony/loire" name="device-sony-loire" groups="device" remote="sony" revision="master" />
