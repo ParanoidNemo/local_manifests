@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="nemo" fetch="https://github.com/ParanoidNemo" />
+<remote name="nemo" fetch="https://github.com/ParanoidNemo/" />
 
 <project path="vendor/oss/nemo_repo_update" name="nemo_repo_update" groups="device" remote="nemo" revision="f5121_q">
 	<linkfile src="q_repo_update.sh" dest="q_repo_update.sh" />
