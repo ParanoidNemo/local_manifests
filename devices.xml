@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
-<remote name="nemo" fetch="https://github.com/ParanoidNemo" />
+<remote name="nemo" fetch="https://github.com/ParanoidNemo/" />
+
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="q-mr1-legacy" />
 <project path="device/sony/common" name="device-sony-common" groups="device" remote="nemo" revision="q-mr1-legacy-posp" />
 
