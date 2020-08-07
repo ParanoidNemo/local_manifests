@@ -9,7 +9,7 @@
     <remove-project name="platform/packages/apps/Car/LensPicker" />
     <remove-project name="platform/packages/apps/Car/LinkViewer" />
     <!-- PackageInstaller depends on car-list, which is in the libs: -->
-    <!--<remove-project name="platform/packages/apps/Car/libs" />-->
+    <!-- <remove-project name="platform/packages/apps/Car/libs" /> -->
     <remove-project name="platform/packages/apps/Car/LocalMediaPlayer" />
     <remove-project name="platform/packages/apps/Car/Media" />
     <remove-project name="platform/packages/apps/Car/Messenger" />

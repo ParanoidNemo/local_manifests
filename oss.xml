@@ -2,12 +2,12 @@
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
 <project path="vendor/oss/cash"  name="vendor-sony-oss-cash" groups="device" remote="sony" revision="master" />
-<project path="vendor/oss/fingerprint"  name="vendor-sony-oss-fingerprint" groups="device" remote="sony" revision="master" />
+<!-- <project path="vendor/oss/fingerprint"  name="vendor-sony-oss-fingerprint" groups="device" remote="sony" revision="master" /> -->
 
-<!--20200408 Already present in Potato tree-->
-<!--project path="vendor/oss/interfaces"  name="vendor-oss-interfaces" groups="device" remote="sony" revision="master" /-->
+<!-- 20200408 Already present in Potato tree -->
+<!-- <project path="vendor/oss/interfaces"  name="vendor-oss-interfaces" groups="device" remote="sony" revision="master" /> -->
 
-<!--project path="vendor/oss/json-c"  name="json-c" groups="device" remote="sony" revision="master" /-->
+<!-- <project path="vendor/oss/json-c"  name="json-c" groups="device" remote="sony" revision="master" /> -->
 <project path="vendor/oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/projection" name="vendor-sony-oss-projection" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/qcrilam"  name="QcRilAm" groups="device" remote="sony" revision="master" />
@@ -17,7 +17,7 @@
 <project path="vendor/oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/transpower" name="transpower" groups="device" remote="sony" revision="master" />
 <project path="packages/apps/ExtendedSettings" name="packages_apps_ExtendedSettings" groups="device" remote="sony" revision="q-mr1" />
-<project path="vendor/oss/repo_update" name="repo_update" groups="device" remote="sony" revision="master">
+<!-- <project path="vendor/oss/repo_update" name="repo_update" groups="device" remote="sony" revision="master">
     <linkfile src="repo_update.sh" dest="repo_update.sh" />
-</project>
+</project> -->
 </manifest>

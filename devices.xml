@@ -6,12 +6,10 @@
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="q-mr1-legacy" />
 <project path="device/sony/common" name="device-sony-common" groups="device" remote="nemo" revision="q-mr1-legacy-posp" />
 
-<project groups="pdk" name="device/sample"/>
-
-<!--msm8956-->
+<!-- msm8956 -->
 <project path="device/sony/loire" name="device-sony-loire" groups="device" remote="sony" revision="master" />
-<project path="device/sony/blanc" name="device-sony-blanc" groups="device" remote="sony" revision="master" />
-<project path="device/sony/kugo" name="device-sony-kugo" groups="device" remote="sony" revision="master" />
-<project path="device/sony/suzu" name="device-sony-suzu" groups="device" remote="nemo" revision="q-mr0" />
+<project path="device/sony/suzu" name="device-sony-suzu" groups="device" remote="nemo" revision="q-mr1-legacy-posp" />
+
+<project name="device/sample" groups="pdk"/>
 
 </manifest>
