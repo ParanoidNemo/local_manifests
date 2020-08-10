@@ -2,10 +2,16 @@
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
 
-<remove-project name="platform/hardware/qcom/gps" />
+<remove-project name="android_hardware_qcom_gps" />
 <remove-project name="platform/hardware/qcom/sdm845/gps" />
-<remove-project name="platform/hardware/qcom/sdm845/media" />
-<remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
+<remove-project name="hardware_qcom_sdm845_data_ipacfg-mgr" />
+<remove-project name="android_hardware_qcom_wlan" />
+<remove-project name="hardware_qcom_sdm845_display" />
+
+<!-- start testing -->
+<remove-project name="android_hardware_qcom_audio" />
+<remove-project name="hardware_qcom_bootctrl" />
+<!-- end testing -->
 
 <project path="hardware/qcom/gps" name="platform/hardware/qcom/sdm845/gps" remote="aosp" groups="qcom_sdm845" />
 
@@ -16,10 +22,16 @@
 
 <project path="vendor/qcom/opensource/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" />
 <project path="vendor/qcom/opensource/bluetooth" name="vendor-qcom-opensource-bluetooth" groups="device" remote="sony" revision="master" />
-<project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="master" />
-<project path="vendor/qcom/opensource/location" name="vendor-qcom-opensource-location" groups="device" remote="sony" revision="p-mr0" />
+<!-- <project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="master" /> -->
+<!-- <project path="vendor/qcom/opensource/location" name="vendor-qcom-opensource-location" groups="device" remote="sony" revision="p-mr0" /> -->
 <project path="vendor/qcom/opensource/wlan" name="hardware-qcom-wlan" groups="device" remote="sony" revision="master" />
-<project path="vendor/qcom/opensource/interfaces" name="vendor-qcom-opensource-interfaces" groups="device" remote="sony" revision="aosp/LA.UM.7.3.r1" >
+<!-- <project path="vendor/qcom/opensource/interfaces" name="vendor-qcom-opensource-interfaces" groups="device" remote="sony" revision="aosp/LA.UM.7.3.r1" >
   <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
-</project>
+</project> -->
+
+<!-- start testing -->
+<project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" groups="qcom,qcom_audio,pdk-qcom" />
+<project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" groups="pdk-qcom" />
+<!-- end testing -->
+
 </manifest>
