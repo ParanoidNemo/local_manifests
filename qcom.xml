@@ -2,23 +2,23 @@
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
 
-<remove-project name="android_hardware_qcom_gps" />
-<remove-project name="platform/hardware/qcom/sdm845/gps" />
-<remove-project name="hardware_qcom_sdm845_data_ipacfg-mgr" />
+<remove-project name="hardware_qcom_gps" />
+<!-- <remove-project name="platform/hardware/qcom/sdm845/gps" /> -->
+<!-- <remove-project name="hardware_qcom_sdm845_data_ipacfg-mgr" /> -->
 <remove-project name="android_hardware_qcom_wlan" />
-<remove-project name="hardware_qcom_sdm845_display" />
+<remove-project name="android_hardware_qcom_display" />
 
 <!-- start testing -->
 <remove-project name="android_hardware_qcom_audio" />
 <remove-project name="hardware_qcom_bootctrl" />
 <!-- end testing -->
 
-<project path="hardware/qcom/gps" name="platform/hardware/qcom/sdm845/gps" remote="aosp" groups="qcom_sdm845" />
+<project path="hardware/qcom/gps" name="platform/hardware/qcom/sdm845/gps" remote="aosp" groups="qcom_sdm845" revision="refs/tags/android-9.0.0_r46" />
 
 <project path="hardware/qcom/display/sde" name="hardware-qcom-display" groups="device" remote="sony" revision="aosp/LA.UM.7.3.r1" />
-<project path="hardware/qcom/media/sdm845" name="platform/hardware/qcom/sdm845/media" groups="qcom_sdm845" remote="aosp" />
+<project path="hardware/qcom/media/sdm845" name="platform/hardware/qcom/sdm845/media" groups="qcom_sdm845" remote="aosp" revision="refs/tags/android-9.0.0_r46" />
 
-<project path="hardware/qcom/data/ipacfg-mgr/sdm845" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="qcom_sdm845" remote="aosp" />
+<project path="hardware/qcom/data/ipacfg-mgr/sdm845" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="qcom_sdm845" remote="aosp" revision="refs/tags/android-9.0.0_r46" />
 
 <project path="vendor/qcom/opensource/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.UM.6.4.r1" />
 <project path="vendor/qcom/opensource/bluetooth" name="vendor-qcom-opensource-bluetooth" groups="device" remote="sony" revision="master" />
@@ -30,8 +30,8 @@
 </project> -->
 
 <!-- start testing -->
-<project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" groups="qcom,qcom_audio,pdk-qcom" />
-<project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" groups="pdk-qcom" />
+<project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" groups="qcom,qcom_audio,pdk-qcom"  remote="aosp" revision="refs/tags/android-9.0.0_r46" />
+<project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" groups="pdk-qcom" remote="aosp" revision="refs/tags/android-9.0.0_r46" />
 <!-- end testing -->
 
 </manifest>
