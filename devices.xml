@@ -10,6 +10,6 @@
 <project path="device/sony/loire" name="device-sony-loire" groups="device" remote="sony" revision="master" />
 <project path="device/sony/suzu" name="device-sony-suzu" groups="device" remote="nemo" revision="q-mr1-legacy-aosip" />
 
-	<!-- <project name="device/sample" groups="pdk"/> -->
+<!-- <project name="device/sample" groups="pdk"/> -->
 
 </manifest>
