@@ -4,7 +4,6 @@
 
 <project path="vendor/oss/nemo_repo_update" name="nemo_repo_update" groups="device" remote="nemo" revision="f5121_q">
 	<linkfile src="q_repo_update.sh" dest="q_repo_update.sh" />
-	<!-- <linkfile src="q_4.9_repo_update.sh" dest="q_4.9_repo_update.sh" /> -->
 	<linkfile src="q_posp_repo_update.sh" dest="q_posp_repo_update.sh" />
 </project>
 </manifest>
