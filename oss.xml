@@ -4,7 +4,6 @@
 <project path="vendor/oss/cash"  name="vendor-sony-oss-cash" groups="device" remote="sony" revision="master" />
 <!-- <project path="vendor/oss/fingerprint"  name="vendor-sony-oss-fingerprint" groups="device" remote="sony" revision="master" /> -->
 
-<!-- 20200408 Already present in Potato tree -->
 <!-- <project path="vendor/oss/interfaces"  name="vendor-oss-interfaces" groups="device" remote="sony" revision="master" /> -->
 
 <!-- <project path="vendor/oss/json-c"  name="json-c" groups="device" remote="sony" revision="master" /> -->

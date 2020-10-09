@@ -7,9 +7,7 @@
 <project path="device/sony/common" name="device-sony-common" groups="device" remote="nemo" revision="q-mr1-legacy-aex" />
 
 <!-- msm8956 -->
-<project path="device/sony/loire" name="device-sony-loire" groups="device" remote="nemo" revision="master" />
+<project path="device/sony/loire" name="device-sony-loire" groups="device" remote="nemo" revision="q-mr1-legacy" />
 <project path="device/sony/suzu" name="device-sony-suzu" groups="device" remote="nemo" revision="q-mr1-legacy-aex" />
-
-<project name="device/sample" groups="pdk"/>
 
 </manifest>

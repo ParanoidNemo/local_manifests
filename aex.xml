@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- <remove-project /> -->
+<remote name="nemo" fetch="https://github.com/ParanoidNemo/" />
+
+<remove-project name="platform/hardware/qcom/sdm845/media" />
 
 <remove-project name="platform_hardware_qcom_wlan" />
 <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom"/>
+
+<remove-project name="platform_hardware_interfaces" />
+<project name="platform/hardware/interfaces" path="hardware/interfaces" groups="pdk"/>
+
+<remove-project name="platform_system_vold" />
+<project name="platform/system/vold" path="system/vold" groups="pdk"/>
 
 </manifest>
